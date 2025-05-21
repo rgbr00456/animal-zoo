@@ -121,5 +121,7 @@ MIT License - see LICENSE
 
 # 📧 Contact
 Developer: Ricardo Pedrosa
+
 Email: rpramos2005@gmail.com
+
 Project Link: https://github.com/rgbr00456/animal-zoo
