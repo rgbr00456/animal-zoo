@@ -6,19 +6,26 @@ A Java application for managing zoo animals with specific behaviors and characte
 ![OOP](https://img.shields.io/badge/Paradigm-OOP-brightgreen)
 
 ## 🌟 Features
-- **3 Animal Types**  
+- **3 Animal Types**
+  
   `Tiger` | `Dolphin` | `Penguin`
-- **Core Functionalities**  
+  
+- **Core Functionalities**
+    
   ✅ Create animals with custom properties  
   ✅ Set/display physical attributes (weight, height, age)  
-  ✅ Animal-specific behaviors:  
+  ✅ Animal-specific behaviors:
+   
   - 🐅 Tigers: Roar, walk
   - 🐬 Dolphins: Swim
   - 🐧 Penguins: Swim, waddle
-- **Interactive CLI Menu**  
+    
+- **Interactive CLI Menu**
+  
   📋 Multi-level menu system for user interaction
 
 ## 🛠️ Tech Stack
+
 - **Core**: Java 17
 - **Paradigms**: OOP (Inheritance, Interfaces, Polymorphism)
 - **Tools**: Maven/Gradle compatible
@@ -35,11 +42,13 @@ git clone https://github.com/yourusername/zoo-animal-system.git
 cd zoo-animal-system
 javac -d bin src/*.java
 java -cp bin Main
+```
 
 ---
 
 # 📂 Project Structure
 
+```
 zoo-animal-system/
 ├── src/
 │   ├── Main.java            # Entry point with menu system
@@ -50,11 +59,12 @@ zoo-animal-system/
 │   ├── Eat.java             # Interface: eatingFood(), eatingCompleted()
 │   ├── Walk.java            # Interface: walking()
 │   └── Swim.java            # Interface: swimming()
-
+```
 ---
 
 # 🖥️ Usage Example
 
+```
 ******* ZOO MENU *******
 1. Tiger
 2. Dolphin
@@ -74,7 +84,7 @@ Choice: 4
 
 Pingu is eating fish.
 Pingu finished eating.
-
+```
 ---
 
 # 🧪 Testing
