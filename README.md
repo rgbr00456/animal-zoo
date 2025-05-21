@@ -36,6 +36,8 @@ cd zoo-animal-system
 javac -d bin src/*.java
 java -cp bin Main
 
+---
+
 # 📂 Project Structure
 
 zoo-animal-system/
@@ -48,6 +50,8 @@ zoo-animal-system/
 │   ├── Eat.java             # Interface: eatingFood(), eatingCompleted()
 │   ├── Walk.java            # Interface: walking()
 │   └── Swim.java            # Interface: swimming()
+
+---
 
 # 🖥️ Usage Example
 
@@ -71,6 +75,8 @@ Choice: 4
 Pingu is eating fish.
 Pingu finished eating.
 
+---
+
 # 🧪 Testing
 
 ## Test cases validate:
@@ -80,6 +86,8 @@ Pingu finished eating.
 - Interface implementation
 
 - Method signatures
+
+---
 
 # 🤝 Contributing
 
@@ -93,9 +101,13 @@ Pingu finished eating.
 
 - Open Pull Request
 
+---
+
 # 📄 License
 
 MIT License - see LICENSE
+
+---
 
 # 📧 Contact
 Developer: Ricardo Pedrosa
